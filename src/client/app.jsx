@@ -20,7 +20,7 @@ export default class List extends Component {
 
 		return (
 			<div>
-				<h1>Values</h1>
+				<h1>MXSH - Values</h1>
 				{
 					items.map((item, index) => (
 						<li key={index} className="list-group-item">
